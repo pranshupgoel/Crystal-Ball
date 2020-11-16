@@ -11,3 +11,4 @@
 ### Added the updated versions of the code with a main.py
 
 ### Checked in new templates(html) for main.py to render
+### Also added the pictures and css file (static folder)
