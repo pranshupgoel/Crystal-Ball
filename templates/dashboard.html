@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Teko:wght@500&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        google.charts.load('current', {packages: ['corechart', 'bar']});
+        google.charts.setOnLoadCallback(drawMultSeries);
+        
+        function drawMultSeries() {
+            
+            
+            var active = {{active|tojson}}
+            var data = google.visualization.arrayToDataTable(active);
+
+            var options = {
+                title: 'Covid care centers',
+                chartArea: {width: '50%'},
+                hAxis: {
+                title: 'Active cases',
+                minValue: 0
+                },
+                vAxis: {
+                title: 'Wards'
+                }
+            };
+
+            var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+            chart.draw(data, options);
+        }
+        
+    </script>
+    
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+        .center {
+            color: rgb(15, 1, 1);
+            padding: 20px 30px;
+            text-align: center;
+            font-size: 15px;
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+        }
+        .button {
+            background-color: #f30d52;
+            border: none;
+            color: white;
+            padding: 20px 52px;
+            text-align: center;
+  
+            text-decoration: none;
+            display: inline-block;
+            font-size: 25px;
+            margin: 4px 2px;
+            cursor: pointer;
+          }
+    </style>
+    </head>
+    <body>
+        <h1 style= "font-family: 'Carrois Gothic', sans-serif;"> The data for all the Covid-care centers </h1>
+
+        <h2 style= "font-family: 'Teko', sans-serif;"> 
+            Our Covid-care centres are fully devoted to taking care of Covid patients.
+            Here is a detailed view of the patients and beds of our 5 wards:
+        </h2>
+        <br><br>
+
+        <table width=100 height=100>
+            <tr>
+                <th> NAME </th>
+                <th> LOCATION </th>
+                <th> BEDS </th>
+                <th> DISCARGED </th>
+                <th> ACTIVE </th>
+                <th> DEAD </th>
+                <th> DOCTORS </th>            
+            </tr>                    
+            
+            {% for line in lines %}
+                <tr>
+                    
+                    {% for i in line %}
+
+                        <td>{{ i }}</td> 
+        
+                    {% endfor %}
+
+                </tr>
+        
+            {% endfor %}
+            
+        </table>
+
+        <br><br><br>        
+        <div id='chart_div' style="position:absolute;right:0px;top:110px;width:500;height:400;"></div>
+        <br>
+
+        <p class="center">
+            <a href="http://127.0.0.1:5000/" class="button"> Home </a><br><br>
+        </p>
+
+    </body>
+</html>
