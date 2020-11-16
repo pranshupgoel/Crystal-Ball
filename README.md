@@ -7,3 +7,5 @@
 ### Created and added thread.py (Simulates the database)
 
 ### Added the dbinfo and dbdelete which perform some functions for the database
+
+### Added the updated versions of the code with a main.py
