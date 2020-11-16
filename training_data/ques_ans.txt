@@ -1,0 +1,116 @@
+What is coronavirus?
+Coronaviruses are a large family of viruses that are known to cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS).
+What is covid-19?
+It is a disease caused by coronavirus.
+What is a novel coronavirus?
+A novel coronavirus (CoV) is a new strain of coronavirus that has not been previously identified in humans.
+How does coronavirus spread?
+It spreads through droplets of saliva when a person infected with COVID-19 sneezes or coughs.
+How does it spread?
+It spreads through droplets of saliva when a person infected with COVID-19 sneezes or coughs.
+Can humans become infected with a novel coronavirus of animal source?
+Detailed investigations found that SARS-CoV was transmitted from civet cats to humans in China in 2002 and MERS-CoV from dromedary camels to humans in Saudi Arabia in 2012. Several known coronaviruses are circulating in animals that have not yet infected humans. As surveillance improves around the world, more coronaviruses are likely to be identified.
+What are the symptoms of someone infected with a coronavirus?
+It depends on the virus, but common signs include respiratory symptoms, fever, cough, shortness of breath, and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death.
+Can coronaviruses be transmitted from person to person?
+Yes, some coronaviruses can be transmitted from person to person, usually after close contact with an infected patient, for example, in a household workplace, or health care centre.
+Is there a vaccine for a novel coronavirus?
+When a disease is new, there is no vaccine until one is developed. It can take a number of years for a new vaccine to be developed.
+Is there a treatment for a novel coronavirus?
+There is no specific treatment for disease caused by a novel coronavirus. However, many of the symptoms can be treated and therefore treatment based on the patient�s clinical condition. Moreover, supportive care for infected persons can be highly effective.
+What can I do to protect myself?
+Standard recommendations to reduce exposure to and transmission of a range of illnesses include maintaining basic hand and respiratory hygiene, and safe food practices  and avoiding close contact, when possible, with anyone showing symptoms of respiratory illness such as coughing and sneezing.
+Are health workers at risk from a novel coronavirus?
+Yes, they can be, as health care workers come into contact with patients more often than the general public WHO recommends that health care workers consistently apply appropriate
+What WHO recommendations for countries?
+WHO encourages all countries to enhance their surveillance for severe acute respiratory infections (SARI), to carefully review any unusual patterns of SARI or pneumonia cases and to notify WHO of any suspected or confirmed case of infection with novel coronavirus. Countries are encouraged to continue strengthening their preparedness for health emergencies in line with the International Health Regulations (2005).
+Where can I find more information about known coronaviruses?
+For more information on MERS-CoV <a href="http://www.emro.who.int/health-topics/mers-cov/index.html">here</a>, For More information on SARS-CoV <a href="https://www.who.int/csr/sars/en/">here</a>.
+What test should I get to see if I have COVID-19?
+In most situations, a molecular test is used to detect SARS-CoV-2 and confirm COVID-19. Polymerase chain reaction (PCR) is the most commonly used molecular test. Samples are collected from the nose and/or throat with a swab. Molecular tests detect virus in the sample by amplifying viral genetic material to detectable levels. For this reason, a molecular test is used to confirm an active infection, usually within a few days of exposure and around the time that symptoms may begin.
+What is the difference between isolation and quarantine?
+Both isolation and quarantine are methods of preventing the spread of the disease. Quarantine means restricting activities and/or separating people who are not ill but may have been exposed to COVID-19. The quarantine can take place in a designated facility or at home for 14 days. Isolation means separating people who are ill with symptoms of COVID-19 and/or have tested positive.
+What does quarantine mean?
+Quarantine means restricting activities and/or separating people who are not ill but may have been exposed to COVID-19.
+What should I do if I have been exposed to someone who has COVID-19?
+If you have been exposed to someone with COVID-19, you may become infected, even if you feel well. You should contact concerned authorities and avoid any contact with anyone.
+How long does it take to develop symptoms?
+The time from exposure to COVID-19 to the moment when symptoms begin is, on average, 5-6 days and can range from 1-14 days. This is why people who have been exposed to the virus are advised to stay home, apart from others, for 14 days, in order to prevent the spread of the virus, especially where testing is not easily available.
+What should I do if I have COVID-19 symptoms?
+If you have any symptoms suggestive of COVID-19, contact your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health.
+I am worried i have Covid-19. What should i do?
+You get go to your nearest Covid care center and get a test for covid 19.
+Is there a vaccine for Covid?
+No not yet but all health officials are trying there best to find the vaccine.
+Are there treatments for COVID-19?
+Scientists around the world are working to find and develop treatments for COVID-19. Optimal supportive care includes oxygen for severely ill patients and those who are at risk for severe disease and more advanced respiratory support such as ventilation for patients who are critically ill. Are antibiotics effective in preventing or treating COVID-19. Antibiotics do not work against viruses; they only work on bacterial infections. COVID-19 is caused by a virus, so antibiotics do not work. Antibiotics should not be used as a means of prevention or treatment of COVID-19.
+What should i do if i have Covid-19
+You should either practice home-quarantine or get help from your nearest Covid-care centers
+i need help
+What help do you require?
+Who is most at risk of severe illness from COVID-19?
+People aged 60 and over, and those with underlying medical problems like high blood pressure, heart and lung problems, diabetes, obesity or cancer, are at higher risk of developing serious illness
+What happens to people who get seriously ill?
+Most people (about 80%) recover from the disease without needing hospital treatment. About 20% of those who get COVID-19 become seriously ill and require oxygen, with 5% becoming critically ill and needing intensive care
+How can we protect others and ourselves if we don't know who is infected?
+Stay safe by taking some simple precautions, such as physical distancing, wearing a mask, keeping rooms well ventilated, avoiding crowds, cleaning your hands, and coughing into a bent elbow or tissue. Check local advice where you live and work. Do it all!
+How does COVID-19 spread between people?
+COVID-19 is caused by the SARS-CoV-2 virus, which spreads between people, mainly when an infected person is in close contact with another person
+how do i test?
+You can test yourself at any nearby Covid-care centers.
+how do i test if i have corona?
+You can test yourself at any nearby Covid-care centers.
+how do i test if i have covid-19?
+You can test yourself at any nearby Covid-care centers.
+I might have COVID-19
+If you have any symptoms suggestive of COVID-19, contact your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health.
+I might have corona
+If you have any symptoms suggestive of COVID-19, contact your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health.
+where can i test?
+You can test yourself at any nearby Covid-care centers.
+what are the symptoms for Covid?
+It depends on the virus, but common signs include respiratory symptoms, fever, cough, shortness of breath, and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death.
+symptoms of corona?
+It depends on the virus, but common signs include respiratory symptoms, fever, cough, shortness of breath, and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death.
+symtoms of covid?
+It depends on the virus, but common signs include respiratory symptoms, fever, cough, shortness of breath, and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death.
+symptoms
+It depends on the virus, but common signs include respiratory symptoms, fever, cough, shortness of breath, and breathing difficulties. In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death.
+I have cough or cold. what should i do?
+If you have any symptoms suggestive of COVID-19, contact your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health.
+i have coughs.
+If you have any symptoms suggestive of COVID-19, contact your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health.
+i have cold
+If you have any symptoms suggestive of COVID-19, contact your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health.
+i have cough and cold
+If you have any symptoms suggestive of COVID-19, contact your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health.
+i suspect i have covid 
+If you have any symptoms suggestive of COVID-19, contact your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health.
+i might have corona
+If you have any symptoms suggestive of COVID-19, contact your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health.
+i might have covid-19
+If you have any symptoms suggestive of COVID-19, contact your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health.
+i suspect i have corona
+If you have any symptoms suggestive of COVID-19, contact your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health.
+where could i test myself?
+You can test yourself at any nearby Covid-care centers.
+where should i test myself?
+You can test yourself at any nearby Covid-care centers.
+how can i test for covid
+You can test yourself at any nearby Covid-care centers.
+is covid harmless?
+No. You must try not to get this deadly virus
+is covid harmful?
+Yes. You must try not to get this deadly virus
+is corona harmful?
+Yes.
+is corona harmless?
+No. You must try not to get this virus.
+is covid air-bourne?
+Yes
+is corona air-bourne?
+Yes
+is covid water-bourne?
+No
+is corona water-bourne?
+No
