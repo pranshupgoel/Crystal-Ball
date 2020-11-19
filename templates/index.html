@@ -47,33 +47,33 @@
 
         .leftpara {
             color: rgb(17, 5, 5);
-            padding: 50px 50px;
-            text-align: center;
+            padding: 10px 10px;
+            text-align: left;
             font-size: 20px;
-            position: absolute; left: 40; width: 500px; 
+            position: absolute; left: 50; width: 500px; 
             font-family: 'Alegreya Sans', sans-serif;
         }
         .rightpara {
             color: rgb(17, 5, 5);
-            padding: 50px 50px;
-            text-align: center;
+            padding: 10px 10px;
+            text-align: left;
             font-size: 20px;
-            position: absolute; right: 40; width: 500px; 
+            position: absolute; right: 50; width: 500px; 
             font-family: 'Alegreya Sans', sans-serif;
         }
 
         .rightpic {
             position: absolute;
-            right: 200;
-            width: 300px;
-            height: 200px;
+            right: 150;
+            width: 400px;
+            height: 250px;
             text-align:center;
         }
         .leftpic {
             position: absolute;
-            left: 200;
-            width: 300px;
-            height: 200px;
+            left: 150;
+            width: 400px;
+            height: 250px;
             text-align:center;
         }
 
@@ -108,33 +108,34 @@
     </div>
 
     <div>
-        <p class="leftpara">
+        <img src="{{ prisha }}" style="position: absolute; left: 180; width: 225px; height: 150px; text-align:center;">
+        <img src="{{ pranshu }}" style="position: absolute; right: 180; width: 225px; height: 150px; text-align:center;">
+        <br><br><br><br><br><br><br><br>
+        <p class="leftpara" style="text-align: center;">
             Prisha is a 12th grader studying in NPS HSR. 
             She is well-versed in languages like Python and also has a good grip on MySQL.
         </p>
-        <img src="{{ prisha }}" class="rightpic">
+        
     </div>
-
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-
     <div>
-        <p class="rightpara"> 
+        <p class="rightpara" style="text-align: center;"> 
             Pranshu is a 9th grader studying in NPS HSR. 
             He is a young coder who likes languages like Python and Java.
             He also has a good understanding of HTML, CSS and Javascript.
         </p>
-        <img src="{{ pranshu }}" class="leftpic">
+        
     </div>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br>
 
         <p style="
             color: rgb(17, 5, 5);
             padding: 30px 20px;
             text-align: center;
             font-size: 25px;
-            font-family: 'Caveat', cursive;"
-        > 
+            font-family: 'Caveat', cursive;
+            ">
+
             We have joined hands to fight with the current Covid-19 pandemic situation.
             We strive to help our Covid Warriors, while making it easy for a common man
             to get access to all the relevant information that they need at this time.
@@ -145,39 +146,24 @@
             
         </div> 
 
-            <img src="{{ hospital1 }}" class="rightpic">
+            <img src="{{ hospital3 }}" class= "rightpic">
 
-            <p class="leftpara">  
-                As we know, our Covid-warriors are fighting the pandemic very rigouresly.
-                Our government has setup several Covid-care centers to augument the medical situation of the citizens.
-
-            </p>
-
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-
-            <img src="{{ hospital2 }}"
-                style="position: absolute;" class= "leftpic">
-
-            <p class="rightpara">
-
+            <p class="leftpara">
                 To enable our citizens to view the real time data of each Covid-care centre in their locality,
                 we have built this dashboard. This dashboard picks up data from the central database add it
                 displays the latest data in an intuitive way.
-
             </p>
 
-            <br><br><br><br><br><br><br><br><br><br><br><br>
-
-            <img src="{{ hospital3 }}" class= "rightpic">
+            <br><br><br><br><br><br><br>
 
             <p class="leftpara">
                 It shows data about the active and discharged patients in each centre along with the data about
                 the doctors and bed availibility.
                 Every citizen can use this dashboard to select the centre that is the most convinient to them.
-                <br><br><br>
+                
             </p>
 
-            <br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br>
 
             <p class="center">
                 <a href="http://127.0.0.1:5000/dashboard" class="button"> Dashboard </a><br><br>
@@ -186,33 +172,22 @@
             <div class="sub">
                 <h2> COVID-19 related Information </h2>
             </div> 
-    
-                <img src="{{ question1 }}" class= "rightpic">
-                
-    
-                <p class="leftpara">  
-                    There is a lot of confusion about the pandemic in the society.
-                    We need a reliable source of info which can help us make a decision related to this pandemic.
-                </p>
-                <br><br><br><br><br><br><br><br><br><br><br><br>
-    
-                <img src="{{ question2 }}" class= "leftpic">
+                <br>
+                                
                 
                 <p class="rightpara">                
                     We have put together an authentic wealth of information in the form of faqs.
                     We update this regularly based on latest devolopement.
                 </p>
-
-                <br><br><br><br><br><br><br><br><br><br><br><br>
-    
-                <img src="{{ question3 }}" class= "rightpic">
+                <img src="{{ question1 }}" class= "leftpic">
+                <br><br><br><br><br>
                 
-                <p class="leftpara">
+                <p class="rightpara">
                     We have also built an interactive chatbot programmed to answer some of the questions that you would have.
                     You can choose to leverage any of these platforms to get the answer to your questions.
                 </p>
     
-                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <br><br><br><br><br><br><br><br><br><br>
 
                 
                 <a href="http://127.0.0.1:5000/faq" class="button" style="position: absolute; left: 300;"> FAQs </a>
@@ -222,29 +197,16 @@
 
                 <div class="sub">
                     <h2> Let us help one-another </h2>
-                </div> 
-        
-                <img src="{{ donate3 }}" class= "rightpic">
-                    
-        
-                <p class="leftpara">  
-                    In these difficult times, we rely upon each other a lot.
-                    While the government has alloted for all medical needs, 
-                    there are still a lot of areas where the public need help to ease other's pains.
-                </p>
-
-                <br><br><br><br><br><br><br><br><br><br><br><br>
-        
-                <img src="{{ donate1 }}" class= "leftpic">>
-                    
-                    <p class="rightpara">                
+                </div>         
+                
+                                        
+                    <p class="leftpara">                
                         If you have such a need, you can register below. 
                         We will publish these requirments on our website so that others can 
-                        come forward to help you.
+                        come forward to help you. 
                     </p>
-                    <br><br><br><br><br><br><br><br><br><br><br><br>
-        
-                    <img src="{{ donate2 }}" class= "rightpic">>
+                    <img src="{{ donate3 }}" class= "rightpic">
+                    <br><br><br><br><br><br><br>
                     
                     <p class="leftpara">
                         Our Covid-care centeroften have some needs which public can help with.
@@ -252,13 +214,10 @@
                         If you wish to help anyone please click the following button:
                     </p>
         
-                    <br><br><br><br><br><br><br><br><br>
-                    <br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br>
+                    
                     
                     <a href="http://127.0.0.1:5000/help_needed" class="button" style="position: absolute; left: 300;"> Need Help </a>
                     <a href="http://127.0.0.1:5000/donate" class="button" style="position: absolute; right: 300;"> Give Help </a><br><br>   
                     
-                    <br><br><br><br><br><br><br><br><br>
-        
-    </body>
-</html>
+                    <br><br><br><br><br><br>
