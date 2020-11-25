@@ -2,7 +2,7 @@
 This README file outlines the steps to install and configure the One-Stop Healthcare Solution for battle against COVID19 pandamic. These steps are for Windows machine, so please apply equivalent commands in case you are installing it on Mac or Linux machines.
 
 - Install python 3
-- Install MySQL from: https://www.sitepoint.com/how-to-install-mysql. Use the default configuration while setting up MySQL.
+- Install MySQL from: https://www.sitepoint.com/how-to-install-mysql. Use the default configuration while setting up MySQL. PLEASE INSTALL MYSQL LOCALLY.
 - Open a Windows command prompt (cmd) and go to Python "scripts" folder. This "scripts" folder is located in the directory where Python is installed. Run the following commands one at a time:
   - pip install mysql.connector-python
   - pip install chatterbot-python
