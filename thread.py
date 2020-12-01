@@ -27,50 +27,66 @@ def simulation():
         if x == 1:
             db_data[mylocal][3] = db_data[mylocal][3] + 50
             st = "UPDATE ccinfo SET BEDS = {} where ID = {}".format(db_data[mylocal][3], mylocal)
+            
         elif x == 2 and db_data[mylocal][3] > 50:
             db_data[mylocal][3] = db_data[mylocal][3] - 50
             st = "UPDATE ccinfo SET BEDS = {} where ID = {}".format(db_data[mylocal][3], mylocal)
+            
         elif x == 3:
             db_data[mylocal][7] = db_data[mylocal][7] + 1
             st = "UPDATE ccinfo SET DOCTORS = {} where ID = {}".format(db_data[mylocal][7], mylocal)
+            
         elif x == 4 and db_data[mylocal][7] > 7:
             db_data[mylocal][7] = db_data[mylocal][7] - 1
             st = "UPDATE ccinfo SET DOCTORS = {} where ID = {}".format(db_data[mylocal][7], mylocal)
+            
         elif x > 4 and x < 101:
             db_data[mylocal][4] = db_data[mylocal][4] + 1
             st = "UPDATE ccinfo SET DISCHARGED = {} where ID = {}".format(db_data[mylocal][4], mylocal)
+            
         elif x > 100 and x < 201:
             db_data[mylocal][5] = db_data[mylocal][5] + 1
             st = "UPDATE ccinfo SET ACTIVE = {} where ID = {}".format(db_data[mylocal][5], mylocal)
+            
         elif x > 200 and x < 211:
             db_data[mylocal][6] = db_data[mylocal][6] + 1
-            st = "UPDATE ccinfo SET DEAD = {} where ID = {}".format(db_data[mylocal][6], mylocal)            
+            st = "UPDATE ccinfo SET DEAD = {} where ID = {}".format(db_data[mylocal][6], mylocal)      
+                  
         elif x > 230 and x < 241:
-            db_data[mylocal][9] = db_data[mylocal][9] + 5
-            st = "UPDATE ccinfo SET PPE_KITS = {} where ID = {}".format(db_data[mylocal][9], mylocal)
-        elif x > 240 and x < 251 and db_data[mylocal][9] > 10:
-            db_data[mylocal][9] = db_data[mylocal][9] - 5
-            st = "UPDATE ccinfo SET PPE_KITS = {} where ID = {}".format(db_data[mylocal][9], mylocal)
+            db_data[mylocal][8] = db_data[mylocal][8] + 5
+            st = "UPDATE ccinfo SET PPE_KITS = {} where ID = {}".format(db_data[mylocal][8], mylocal)
+            
+        elif x > 240 and x < 251 and db_data[mylocal][8] > 10:
+            db_data[mylocal][8] = db_data[mylocal][8] - 5
+            st = "UPDATE ccinfo SET PPE_KITS = {} where ID = {}".format(db_data[mylocal][8], mylocal)
+            
         elif x > 250 and x < 261:
-            db_data[mylocal][10] = db_data[mylocal][10] + 5
-            st = "UPDATE ccinfo SET BLANKETS = {} where ID = {}".format(db_data[mylocal][10], mylocal)
-        elif x > 260 and x < 271 and db_data[mylocal][10] > 10:
-            db_data[mylocal][10] = db_data[mylocal][10] - 5
-            st = "UPDATE ccinfo SET BLANKETS = {} where ID = {}".format(db_data[mylocal][10], mylocal)
+            db_data[mylocal][9] = db_data[mylocal][9] + 5
+            st = "UPDATE ccinfo SET BLANKETS = {} where ID = {}".format(db_data[mylocal][9], mylocal)
+            
+        elif x > 260 and x < 271 and db_data[mylocal][9] > 10:
+            db_data[mylocal][9] = db_data[mylocal][9] - 5
+            st = "UPDATE ccinfo SET BLANKETS = {} where ID = {}".format(db_data[mylocal][9], mylocal)
+            
         elif x > 270 and x < 281:
-            db_data[mylocal][11] = db_data[mylocal][11] + 5
-            st = "UPDATE ccinfo SET MASKS = {} where ID = {}".format(db_data[mylocal][11], mylocal)
-        elif x > 280 and x < 291 and db_data[mylocal][11] > 10:
-            db_data[mylocal][11] = db_data[mylocal][11] - 5
-            st = "UPDATE ccinfo SET MASKS = {} where ID = {}".format(db_data[mylocal][11], mylocal)
+            db_data[mylocal][10] = db_data[mylocal][10] + 5
+            st = "UPDATE ccinfo SET MASKS = {} where ID = {}".format(db_data[mylocal][10], mylocal)
+            
+        elif x > 280 and x < 291 and db_data[mylocal][10] > 10:
+            db_data[mylocal][10] = db_data[mylocal][10] - 5
+            st = "UPDATE ccinfo SET MASKS = {} where ID = {}".format(db_data[mylocal][10], mylocal)
+            
         elif x > 290 and x < 301:
-            db_data[mylocal][12] = db_data[mylocal][12] + 5
-            st = "UPDATE ccinfo SET SANITIZER = {} where ID = {}".format(db_data[mylocal][12], mylocal)
-        elif x > 300 and x < 311 and db_data[mylocal][12] > 10:
-            db_data[mylocal][12] = db_data[mylocal][12] - 5
-            st = "UPDATE ccinfo SET SANITIZER = {} where ID = {}".format(db_data[mylocal][12], mylocal)
+            db_data[mylocal][11] = db_data[mylocal][11] + 5
+            st = "UPDATE ccinfo SET SANITIZER = {} where ID = {}".format(db_data[mylocal][11], mylocal)
+            
+        elif x > 300 and x < 311 and db_data[mylocal][11] > 10:
+            db_data[mylocal][11] = db_data[mylocal][11] - 5
+            st = "UPDATE ccinfo SET SANITIZER = {} where ID = {}".format(db_data[mylocal][11], mylocal)
+            
         elif x >310:
             continue
+        
         mycur.execute(st)
         f.commit()
         time.sleep(7)
