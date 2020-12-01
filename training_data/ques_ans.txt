@@ -80,6 +80,12 @@ I have cough or cold. what should i do?
 If you have any symptoms suggestive of COVID-19, contact your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health.
 i have coughs.
 If you have any symptoms suggestive of COVID-19, contact your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health.
+active
+Please visit https://www.worldometers.info/coronavirus/country/india/ for more information
+dead
+Please visit https://www.worldometers.info/coronavirus/country/india/ for more information
+recovered 
+Please visit https://www.worldometers.info/coronavirus/country/india/ for more information
 i have cold
 If you have any symptoms suggestive of COVID-19, contact your health care provider or COVID-19 hotline for instructions and find out when and where to get a test, stay at home for 14 days away from others and monitor your health.
 i have cough and cold
@@ -114,3 +120,23 @@ is covid water-bourne?
 No
 is corona water-bourne?
 No
+active cases
+Please visit https://www.worldometers.info/coronavirus/country/india/ for more information
+total active cases
+Please visit https://www.worldometers.info/coronavirus/country/india/ for more information
+what are the number of active cases
+Please visit https://www.worldometers.info/coronavirus/country/india/ for more information
+what are the active cases of india
+Please visit https://www.worldometers.info/coronavirus/country/india/ for more information
+recovered cases 
+Please visit https://www.worldometers.info/coronavirus/country/india/ for more information
+dead cases
+Please visit https://www.worldometers.info/coronavirus/country/india/ for more information
+what is the number of dead cases 
+Please visit https://www.worldometers.info/coronavirus/country/india/ for more information
+what is the number of recovered cases
+Please visit https://www.worldometers.info/coronavirus/country/india/ for more information
+dead cases in india
+Please visit https://www.worldometers.info/coronavirus/country/india/ for more information
+recovered cases in india
+Please visit https://www.worldometers.info/coronavirus/country/india/ for more information

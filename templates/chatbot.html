@@ -6,21 +6,6 @@
   <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
-<style>
-  .button {
-    background-color: #f30d52;
-    border: none;
-    color: white;
-    padding: 20px 52px;
-    text-align: center;
-
-    text-decoration: none;
-    display: inline-block;
-    font-size: 25px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-</style>
 
 <body>
   <section class="msger">
@@ -52,6 +37,7 @@
       <input type="text" class="msger-input" id="textInput" placeholder="Enter your message...">
       <button type="submit" class="msger-send-btn">Send</button>
     </form>
+    
   </section>
 
   <script>
@@ -118,10 +104,7 @@
 
       return `${h.slice(-2)}:${m.slice(-2)}`;
     }
-
-
-
   </script>
-  <a href="http://127.0.0.1:5000/" class="button" style="position: absolute; right: 600; top: 400;"> Home </a><br><br> 
+
 </body>
 </html>

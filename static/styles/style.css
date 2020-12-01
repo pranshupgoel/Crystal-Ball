@@ -3,7 +3,7 @@
   --msger-bg: #fff;
   --border: 2px solid #ddd;  
   --left-msg-bg: #ececec;
-  --right-msg-bg: #579ffb;
+  --right-msg-bg: #a1bde0;
 }
 
 html {
@@ -42,7 +42,6 @@ body {
 }
 
 .msger-header {
-  /* display: flex; */
   font-size: medium;
   justify-content: space-between;
   padding: 10px;
@@ -146,7 +145,3 @@ body {
   background: rgb(0, 180, 50);
 }
 
-.msger-chat {
-  background-color: #3fb4c9;
-  
-}

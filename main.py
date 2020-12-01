@@ -63,7 +63,9 @@ def index():
 #Chatbot pages
 @app.route("/chatbot")
 def home():
-    return flask.render_template("chatbot.html")
+    bot = os.path.join(app.config['UPLOAD_FOLDER'], 'bot.jpg')
+    person = os.path.join(app.config['UPLOAD_FOLDER'], 'person.jpg')
+    return flask.render_template("chatbot.html", bot=bot, person=person)
 
 @app.route("/get")
 def get_bot_response():

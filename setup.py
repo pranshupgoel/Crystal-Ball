@@ -10,7 +10,7 @@ mycur.execute("use One_Stop_Healthcare;")
 print("Database created!")
 
 #Creating a table ccinfo and inserting values
-mycur.execute("create table ccinfo(ID INTEGER NOT NULL primary key, NAME varchar(20), LOCATION varchar(20), BEDS integer, DISCHARGED integer, ACTIVE integer, DEAD integer, DOCTORS integer, MONEY integer, PPE_KITS integer, BLANKETS integer, MASKS integer, SANITIZER integer);")
+mycur.execute("create table ccinfo(ID INTEGER NOT NULL primary key, NAME varchar(20), LOCATION varchar(20), BEDS integer, DISCHARGED integer, ACTIVE integer, DEAD integer, DOCTORS integer, PPE_KITS integer, BLANKETS integer, MASKS integer, SANITIZER integer);")
 
 mycur.execute("insert into ccinfo(ID, NAME, LOCATION, BEDS, DISCHARGED, ACTIVE, DEAD, DOCTORS, PPE_KITS, BLANKETS, MASKS, SANITIZER)values(1, 'Ward-1', 'KRM', 500, 100, 300, 50, 25, 20, 100, 100, 70);") 
 mycur.execute("insert into ccinfo(ID, NAME, LOCATION, BEDS, DISCHARGED, ACTIVE, DEAD, DOCTORS, PPE_KITS, BLANKETS, MASKS, SANITIZER)values(2, 'Ward-2', 'KRM', 600, 290, 250, 85, 78, 40, 150, 300, 90);") 

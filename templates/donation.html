@@ -1,48 +1,97 @@
-<html>    
-    <style>
-        .button {
-            background-color: #f30d52;
-            border: none;
-            color: white;
-            padding: 15px 40px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 15px;
-            margin: 4px 2px;
-            cursor: pointer;
-        }
-
-        body {
-            margin: auto;            
-            padding: 10px 10px;
-            text-align: center;
-        }            
-    </style>
-
-
-    <h2 style="text-align: left; width: 300%;"> Please fill in your details to continue: </h2>
-
+<html>
+    <head>
+        <title> Donations </title>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script>
+            google.charts.load('current', {packages: ['corechart', 'bar']});
+            google.charts.setOnLoadCallback(drawMultSeries);
+            function drawMultSeries() {
+            
+                
+                var info = {{info|tojson}}
+                var data = google.visualization.arrayToDataTable(info);
+                var options = {
+                    title: 'Covid care centers',
+                    chartArea: {width: '70%'},
+                    width: 1000,
+                    height: 700,
+                    bar: {groupWidth: "75%"},
+                    hAxis: {
+                    title: 'All supplies needed by the Wards',
+                    minValue: 0
+                    },
+                    vAxis: {
+                    title: 'Wards'
+                    }
+                };
     
-    <body style="width: 35%;">
-        <form action="{{ url_for('store')}}" method="post">
-            <label for="fname"><h4>First name:</h4></label>
-            <input type="text" id="fname" name="fname" placeholder="Eg: Firstname..." required><br>
-
-            <label for="lname"><h4>Last name:</h4></label>
-            <input type="text" id="lname" name="lname" placeholder="Eg: lastname..." required><br>
-
-            <label for="fname"><h4>Phone:</h4></label>
-            <input type="text" id="ename" name="ename" placeholder="Eg: 0123456789" required>
-
-            <label for="dname"><h4>What do you need:</h4></label>
-            <input type="text" id="dname" name="dname" placeholder="Eg: 10 Masks..." required>
+                var chart = new google.visualization.BarChart(document.getElementById('chart_div'));
+                chart.draw(data, options);
+            }
             
-            <br><br><br><br><br>
+        </script>
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+            th, td {
+                padding: 15px;
+                text-align: center;
+            }
+            .button {
+                background-color: #f30d52;
+                border: none;
+                color: white;
+                padding: 20px 52px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 20px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+            .center {
+            color: rgb(15, 1, 1);
+            padding: 20px 30px;
+            text-align: center;
+            font-size: 15px;
+            text-align: center;
+            font-family: "Times New Roman", Times, serif;
+            }
+        </style>
+    </head>
+    <div style="padding-right: 70px; padding-left: 30px; text-align: left">
+        <h1> Please Donate </h1>
+        <h3> This page lists down all the needs from our Covid-care centres and other communities/individuals. Please click the link at the bottom of this page if you would like to donate towards any of these needs </h3>
+    </div>
+    <body style="padding-right: 70px; padding-left: 50px; text-align: left">
+        <div id='chart_div' style="margin: 0 auto; display: inline-block;"></div>
+        <br><br><br><br><br>
+        <table style="margin-left: auto; margin-right: auto; width: 90%;">
 
-            <button class= "button" style="position: absolute; left: 500;" type="submit"> Submit </button> 
-            <a href="http://127.0.0.1:5000/" class="button" style="position: absolute; right: 500;"> Home </a><br><br> 
-            
-        </form> 
+            <tr>
+                <th> FIRST NAME </th>
+                <th> LAST NAME </th>
+                <th> PHONE </th>
+                <th> NEEDED </th>            
+            </tr>
+
+            {% for line in lines %}
+                <tr>
+                    {% for i in line %}
+
+                        <td>{{ i }}</td> 
+        
+                    {% endfor %}
+                </tr>
+        
+            {% endfor %}  
+
+        </table>
     </body>
+    <br><br><br><br><br><br>
+    <a href="http://127.0.0.1:5000/" class="button" style="position: absolute; right: 400;"> Home </a>
+    <a href="http://127.0.0.1:5000/donater_info" class="button" style="position: absolute; left: 400;"> Donate </a>
+
 </html>

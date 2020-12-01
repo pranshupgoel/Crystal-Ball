@@ -74,13 +74,6 @@ def simulation():
         mycur.execute(st)
         f.commit()
         time.sleep(7)
-        
-        '''elif x > 210 and x < 221:
-            db_data[mylocal][8] = db_data[mylocal][8] + 10000
-            st = "UPDATE ccinfo SET MONEY = {} where ID = {}".format(db_data[mylocal][8], mylocal)
-        elif x > 220 and x < 231 and db_data[mylocal][8] > 20000:
-            db_data[mylocal][8] = db_data[mylocal][8] - 10000
-            st = "UPDATE ccinfo SET MONEY = {} where ID = {}".format(db_data[mylocal][8], mylocal)'''
             
 
 if __name__ == "__main__": 
